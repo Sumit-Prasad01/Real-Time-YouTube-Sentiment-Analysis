@@ -1,0 +1,21 @@
+Metadata-Version: 2.4
+Name: Youtube-Sentiment-Insights
+Version: 0.0.1
+Author: Sumit Prasad
+Author-email: 
+Requires-Dist: boto3==1.35.36
+Requires-Dist: Flask==3.0.3
+Requires-Dist: Flask_Cors==5.0.0
+Requires-Dist: joblib==1.4.2
+Requires-Dist: lightgbm==4.5.0
+Requires-Dist: matplotlib==3.9.2
+Requires-Dist: mlflow==2.17.0
+Requires-Dist: dvc==3.53.0
+Requires-Dist: dvc[s3]
+Requires-Dist: nltk==3.9.1
+Requires-Dist: numpy==2.1.2
+Requires-Dist: pandas==2.2.3
+Requires-Dist: wordcloud==1.9.3
+Requires-Dist: seaborn==0.13.2
+Dynamic: author
+Dynamic: requires-dist

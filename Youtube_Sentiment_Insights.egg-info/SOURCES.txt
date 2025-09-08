@@ -1,0 +1,7 @@
+README.md
+setup.py
+Youtube_Sentiment_Insights.egg-info/PKG-INFO
+Youtube_Sentiment_Insights.egg-info/SOURCES.txt
+Youtube_Sentiment_Insights.egg-info/dependency_links.txt
+Youtube_Sentiment_Insights.egg-info/requires.txt
+Youtube_Sentiment_Insights.egg-info/top_level.txt
