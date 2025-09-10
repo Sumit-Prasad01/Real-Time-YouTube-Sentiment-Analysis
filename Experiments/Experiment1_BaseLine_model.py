@@ -110,7 +110,7 @@ with mlflow.start_run():
     plt.ylabel("Actual")
     plt.title("Confusion Matrix")
 
-    plt.savefig("../Baseline_Model/confusion_matrix.png")
+    plt.savefig("../visuals/Baseline_Model/confusion_matrix.png")
     mlflow.log_artifact("/content/confusion_matrix.png")
 
     mlflow.sklearn.log_model(model, 'random_forest_model')
