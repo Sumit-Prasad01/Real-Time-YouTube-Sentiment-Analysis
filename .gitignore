@@ -138,4 +138,4 @@ cython_debug/
 # VS Code settings
 .vscode/
 
-data/
+Youtube_Sentiment_Insights.egg-info/
