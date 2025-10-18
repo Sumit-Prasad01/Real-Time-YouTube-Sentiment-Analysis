@@ -1,3 +1,0 @@
-IAM USER 
-S3
-EC2
