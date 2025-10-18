@@ -140,3 +140,4 @@ cython_debug/
 
 Youtube_Sentiment_Insights.egg-info/
 notebooks/mlruns/
+/experiment_info.json

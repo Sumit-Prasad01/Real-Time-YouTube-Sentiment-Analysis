@@ -4,9 +4,14 @@ import json
 import mlflow
 import logging
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+MLFLOW_URI = os.getenv("MLFLOW_URI")
 
 # Set up MLflow tracking URI
-mlflow.set_tracking_uri("http://ec2-52-91-160-21.compute-1.amazonaws.com:5000/")
+mlflow.set_tracking_uri(MLFLOW_URI)
 
 
 # logging configuration
