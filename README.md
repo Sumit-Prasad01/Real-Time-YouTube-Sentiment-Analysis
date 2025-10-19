@@ -3,7 +3,7 @@
 ## 📘 Overview
 **YouTube Sentiment Analysis** is an end-to-end Machine Learning project that analyzes sentiments (Positive, Neutral, Negative) of YouTube comments using Natural Language Processing (NLP).  
 The model is served via a **Flask API**, and a **Chrome Extension** built with HTML, CSS, and JavaScript interacts with this API to display real-time sentiment analysis directly on YouTube videos.  
-The project is fully **containerized using Docker** and deployed on **AWS (EC2, S3, ECR, IAM)** for scalability and automation.
+The project is fully **containerized using Docker** and deployed on **AWS (EC2, S3, ECR, IAM)** for scalability and automation and CI/CD Deployment using **GitHub Actions**.
 
 ---
 
@@ -51,7 +51,9 @@ YouTube_Sentiment_Analysis/
   - **S3** for data storage  
   - **ECR** for Docker image repository  
   - **EC2** for hosting Flask API  
-  - **IAM** for access and security management  
+  - **IAM** for access and security management
+- **CI/CD Pipeline:**
+  - GitHub Actions  
 
 ---
 
@@ -62,8 +64,9 @@ YouTube_Sentiment_Analysis/
 4. **Model Training:** LightGBM classifier for sentiment prediction.  
 5. **Evaluation:** Accuracy, precision, recall, F1-score.  
 6. **Versioning:** Data and models tracked using DVC.  
-7. **Deployment:** Flask app containerized and deployed on AWS EC2.  
-8. **Integration:** Chrome extension communicates with Flask API endpoint.
+7. **Deployment:** Flask app containerized and deployed on AWS EC2.
+8. **CI/CD** CI/CD automation using GitHub Actions   
+9. **Integration:** Chrome extension communicates with Flask API endpoint.
 
 ---
 
@@ -144,8 +147,6 @@ Access API at: [http://localhost:5000/predict](http://localhost:5000/predict)
 - Integrate **MLflow** for experiment tracking  
 - Enhance Chrome Extension UI with **React.js**  
 - Support **multilingual sentiment detection**  
-- Automate CI/CD with **GitHub Actions**  
-
 ---
 
 
